@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="720" viewBox="0 0 720 720" role="img" aria-label="Background pattern">
+  <defs>
+    <pattern id="p" width="120" height="120" patternUnits="userSpaceOnUse">
+      <path d="M-20 140 L140 -20" stroke="#0a7e35" stroke-width="2" opacity="0.08"/>
+      <circle cx="16" cy="18" r="2" fill="#0f9f45" opacity="0.18"/>
+      <circle cx="74" cy="36" r="1.6" fill="#0a7e35" opacity="0.16"/>
+      <circle cx="38" cy="78" r="1.8" fill="#0f9f45" opacity="0.14"/>
+      <circle cx="98" cy="92" r="2.2" fill="#0a7e35" opacity="0.12"/>
+      <circle cx="108" cy="14" r="6" fill="#0f9f45" opacity="0.06"/>
+      <circle cx="10" cy="110" r="8" fill="#0a7e35" opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect width="720" height="720" fill="url(#p)"/>
+
+  <!-- A few very soft blobs so the texture doesn't feel flat -->
+  <circle cx="120" cy="140" r="110" fill="#0f9f45" opacity="0.04"/>
+  <circle cx="610" cy="170" r="150" fill="#0a7e35" opacity="0.035"/>
+  <circle cx="560" cy="620" r="180" fill="#0f9f45" opacity="0.03"/>
+</svg>

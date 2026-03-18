@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Portfolio — SK Construction</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo"><img src="logo (2).png" alt="SK Construction logo" style="width:56px;height:56px;object-fit:cover"></div>
+        <div><strong>SK Construction</strong><div style="font-size:13px;color:var(--muted)">Quality is our responsibility</div></div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html" class="active" aria-current="page">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="reveal">Portfolio</h1>
+    <p class="muted reveal">A selection of recent projects (sample entries). Replace these with your photos and details when ready.</p>
+
+    <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-top:12px">
+      <div class="proj reveal">
+        <div style="position:relative;z-index:2"><strong>Residential Villa — Villupuram</strong><div class="muted" style="font-size:13px">Complete structure and finishes • 2022</div></div>
+      </div>
+      <div class="proj reveal">
+        <div style="position:relative;z-index:2"><strong>Commercial Shopfront — Villupuram</strong><div class="muted" style="font-size:13px">MEP coordination & finishes • 2023</div></div>
+      </div>
+      <div class="proj reveal">
+        <div style="position:relative;z-index:2"><strong>Factory Renovation — Cuddalore</strong><div class="muted" style="font-size:13px">Civil remediation • 2021</div></div>
+      </div>
+      <div class="proj reveal">
+        <div style="position:relative;z-index:2"><strong>Apartment Block — Villupuram</strong><div class="muted" style="font-size:13px">Structural works • 2024</div></div>
+      </div>
+      <div class="proj reveal">
+        <div style="position:relative;z-index:2"><strong>Office Fitout — Chennai</strong><div class="muted" style="font-size:13px">Interior MEP coordination • 2023</div></div>
+      </div>
+      <div class="proj reveal">
+        <div style="position:relative;z-index:2"><strong>House Renovation — Pondicherry</strong><div class="muted" style="font-size:13px">Renovation & painting • 2022</div></div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div><strong>SK Construction</strong></div>
+      <div class="muted">Call: <a href="tel:9843350595">9843350595</a></div>
+    </div>
+  </footer>
+
+  <div id="lightbox" class="modal" onclick="closeLightbox()">
+    <img id="lightbox-img" src="" alt="Preview">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
